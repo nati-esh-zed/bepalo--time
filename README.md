@@ -49,3 +49,5 @@ Time.for(1).year.and(11).weeks._y; // in years
 ```
 
 ## 🕊️ Thanks and Enjoy
+
+If you like this library and want to support then please give a star on [GitHub](https://github.com/nati-esh-zed/bepalo--time).
