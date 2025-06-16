@@ -20,10 +20,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: pnpm i
+        run: npm i
 
       - name: Run tests
-        run: pnpm test
+        run: npm test
 
       - name: Build package
-        run: pnpm run build
+        run: npm run build
