@@ -25,7 +25,7 @@
  *
  */
 export class TimeValue extends Number {
-  constructor(value: unknown) {
+  constructor(value: any) {
     super(value);
   }
 
@@ -151,6 +151,10 @@ export class TimeValue extends Number {
    */
   and(time: number): RelativeTime {
     return new RelativeTime(time, this.valueOf());
+  }
+
+  override valueOf(): number {
+    return super.valueOf();
   }
 
   override toString(): string {

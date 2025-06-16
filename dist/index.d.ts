@@ -24,7 +24,7 @@
  *
  */
 export declare class TimeValue extends Number {
-    constructor(value: unknown);
+    constructor(value: any);
     /**
      * Get the time in milliseconds
      */
@@ -101,6 +101,7 @@ export declare class TimeValue extends Number {
      * @returns RelativeTime
      */
     and(time: number): RelativeTime;
+    valueOf(): number;
     toString(): string;
     [Symbol.toPrimitive](hint: string): string | number;
 }
@@ -499,4 +500,3 @@ export declare class RelativeTime {
      */
     get Years(): number;
 }
-//# sourceMappingURL=index.d.ts.map

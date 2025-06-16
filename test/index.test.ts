@@ -1,6 +1,6 @@
 // test/index.test.ts
 import { describe, it, expect } from "vitest";
-import { Time } from "../src";
+import { Time } from "@bepalo/time";
 
 describe("Time API coverage", () => {
   it("Time.every(5).Days", () => {
