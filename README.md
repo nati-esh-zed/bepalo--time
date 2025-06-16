@@ -1,5 +1,10 @@
 # 🏆 @bepalo/time
 
+[![npm version](https://img.shields.io/npm/v/@bepalo/time.svg)](https://www.npmjs.com/package/@bepalo/time)
+[![CI](https://github.com/nati-esh-zed/bepalo--time/actions/workflows/ci.yaml/badge.svg)](https://github.com/nati-esh-zed/bepalo--time/actions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/nati-esh-zed/bepalo--time/ci.yaml?label=tests&style=flat-square)](https://github.com/nati-esh-zed/bepalo--time/actions/workflows/ci.yaml.yml)
+[![license](https://img.shields.io/npm/l/@bepalo/time.svg)](LICENSE)
+
 Elegant and fluent time expression utility library like `exp: Time.in(7).days.FromNow`.
 
 ## 📥 Install
