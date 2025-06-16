@@ -1,6 +1,6 @@
 {
   "name": "@bepalo/time",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Elegant and fluent time expression utility library like `exp: Time.in(7).days.FromNow`",
   "author": "Natnael Eshetu",
   "license": "MIT",
